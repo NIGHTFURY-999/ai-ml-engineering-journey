@@ -24,11 +24,12 @@ remainder = a%b
 price = 500
 quantity = 3
 
-sum = price*quantity
-print(sum)
+total = price*quantity
+print(total)
 
 # Exercise 4
 name = str(input("enter your name:"))
 age = int(input("enter your age:"))
 
 print("hello",name,"you are",age,"years old")
+
