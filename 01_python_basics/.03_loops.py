@@ -329,12 +329,23 @@
 
 # print(largest)
 
-numbers = [-4, -17, -2, -9, -25]
+# numbers = [-4, -17, -2, -9, -25]
 
-smallest = numbers[0]
+# smallest = numbers[0]
 
-for number in numbers:
-    if number < smallest:
-        smallest = number
+# for number in numbers:
+#     if number < smallest:
+#         smallest = number
 
-print(smallest)
+# print(smallest)
+
+# numbers = [10, 20, 30, 40, 50]
+# for i in range(len(numbers)-1,-1,-1):
+#     print(numbers[i])
+
+# numbers = [7, 14, 21, 28, 35, 42]
+
+# for i in range(len(numbers)-1,-1,-1):
+#     print(numbers[i])
+
+numbers = [7, 14, 21, 28, 35, 42, 49, 56]
