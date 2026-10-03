@@ -240,3 +240,101 @@
 #     print("not found")
 
 
+# numbers = [4, 7, 2, 9, 6, 3, 8]
+# target = 6
+
+# for i in range(len(numbers)):
+#     if numbers[i] == 6:
+#         print(target,"found at index", i)
+
+
+# numbers = [4, 7, 2, 9, 6, 3, 8]
+
+# target = 6
+
+# found = False
+# index = 0
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         found = True
+#         index = i
+
+# if found :
+#     print(target, "found at index" ,index)
+
+# else:
+#     print("not found")
+
+# numbers = [2, 5, 2, 7, 2, 9, 5]
+
+# target = 2
+
+# count =0
+
+# for number in numbers:
+#     if number == target:
+#         count+=1
+
+# print(count)
+
+# numbers = [3, 8, 5, 12, 7, 6, 9, 10]
+
+# count = 0
+
+# for number in numbers:
+#     if number%2 == 0:
+#         count+=1
+
+# print(count)
+
+# numbers = [3, 8, 5, 12, 7, 6, 9, 10]
+
+# total = 0
+
+# for number in numbers:
+#     if number%2 == 0:
+#         total += number
+
+# print(total)
+
+
+# numbers = [4, 7, 2, 9, 6, 3, 8, 10]
+
+# count = 0
+# total = 0
+
+# for number in numbers:
+#     if number%2 == 0:
+#         count+=1
+#         total += number
+
+# print("even numbers :",count)
+# print("sum:",total)
+
+
+# numbers = [4, 17, 2, 9, 25, 6, 8]
+# big = 0
+# for number in numbers:
+#     if number > big:
+#         big = number
+# print(big)
+
+# numbers = [-4, -17, -2, -9, -25]
+
+# largest = numbers[0]
+
+# for number in numbers:
+#     if number > largest:
+#         largest = number
+
+# print(largest)
+
+numbers = [-4, -17, -2, -9, -25]
+
+smallest = numbers[0]
+
+for number in numbers:
+    if number < smallest:
+        smallest = number
+
+print(smallest)
