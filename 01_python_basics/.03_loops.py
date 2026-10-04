@@ -587,4 +587,25 @@
 
 
 
+# numbers = [12, 5, 8, 21, 3, 17]
+# target =100
 
+# for i,j in enumerate(numbers):
+#     if j == target:
+#         print(target, "found at index",i)
+#         break
+# else:
+#     print(target,"not found")
+
+number = 1
+target = 15
+
+while number <= 10 :
+    
+    if number == target:
+        print("target found")
+        break
+    number+=1
+else:
+    print("target not found")
+    
