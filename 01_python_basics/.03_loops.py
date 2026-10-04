@@ -633,7 +633,34 @@
 # print(frequency)
 
 
-numbers = [10, 25, 7, 40, 18, 32]
+# numbers = [10, 25, 7, 40, 18, 32]
+# largest = numbers[0]
+# second_larg=numbers[0]
+# for number in numbers:
+#     if number > largest:
+#         largest = number
+# for number in numbers:
+#     if number > second_larg and number != largest :
+#         second_larg = number
+# print(largest)
+# print(second_larg)
 
-for number in numbers:
-    if 
+
+# numbers1 = [1, 4, 7, 9, 12]
+# numbers2 = [3, 7, 10, 12, 15]
+
+# for number1 in numbers1:
+#     for number2 in numbers2:
+#         if number1 == number2:
+#             print(number1) 
+
+
+numbers1 = [1, 4, 7, 7, 9, 12]
+numbers2 = [3, 7, 7, 10, 12, 12]
+common = []
+for number1 in numbers1:
+    for number2 in numbers2:
+        if number1 == number2 :
+            if number1 not in common:
+                common.append(number1)
+print(common)
