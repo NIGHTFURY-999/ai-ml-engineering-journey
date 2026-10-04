@@ -471,10 +471,106 @@
 
 
 
-numbers = [4, 7, 9, 4]
+# numbers = [4, 7, 9, 4]
 
-for i, number in enumerate(numbers):
+# for i, number in enumerate(numbers):
 
-    print(i, number)
+#     print(i, number)
 
 
+# numbers = [4, 12, 7, 20, 3, 15]
+
+# for i, number in enumerate(numbers):
+#     if number > 10 :
+#         print(i,number)
+
+
+# numbers = [4, 12, 7, 20, 3, 15]
+# target = 20
+
+# for i, number in enumerate(numbers):
+#     if number == target:
+#         print(target,"found at index", i)
+
+
+# numbers = [4, 12, 7, 20, 3, 15]
+# target = 20
+# found = False
+# j = 0
+# for i, number in enumerate(numbers):
+#     if number == target:
+#         j = i
+#         found = True
+
+# if found :  
+#     print(target,"found at index", j)
+# else:
+#     print("target not found")
+
+
+# numbers = [5, 12, 7, 12, 3, 12]
+# target = 12
+
+# for i,number in enumerate(numbers):
+#     if number == target:
+#         print(i)
+
+
+# student = {
+#     "name": "Vaibhav",
+#     "age": 23,
+#     "course": "MCA"
+# }
+
+# for i in student:
+#     print(i, student[i])
+
+
+# student = {
+#     "name": "Vaibhav",
+#     "age": 23,
+#     "course": "MCA"
+# }
+
+
+# for key , value in student.items():
+#     print(key,value)
+
+
+# student = {
+#     "name": "Vaibhav",
+#     "age": 23,
+#     "course": "MCA"
+# }
+
+
+# for value in student.values():
+#     print(value)
+
+
+# marks = {
+#     "Python": 85,
+#     "SQL": 72,
+#     "ML": 91,
+#     "DSA": 68
+# }
+
+# for i,j in marks.items():
+#     if j > 70:
+#         print(i,j)
+
+
+# marks = {
+#     "Python": 85,
+#     "SQL": 72,
+#     "ML": 91,
+#     "DSA": 68
+# }
+# largest = list(marks.values())[0]
+# subject =""
+# for i,j in marks.items():
+#     if j< largest:
+#         largest = j
+#         subject = i
+
+# print(subject,largest)
