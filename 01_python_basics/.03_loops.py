@@ -340,12 +340,141 @@
 # print(smallest)
 
 # numbers = [10, 20, 30, 40, 50]
+# # for i in range(len(numbers)-1,-1,-1):
+# #     print(numbers[i])
+
+# # numbers = [7, 14, 21, 28, 35, 42]
+
+# # for i in range(len(numbers)-1,-1,-1):
+# #     print(numbers[i])
+
+# numbers = [7, 14, 21, 28, 35, 42, 49, 56]
+
 # for i in range(len(numbers)-1,-1,-1):
+#     if numbers[i] % 2== 0 :
+#         print(numbers[i])
+
+# # word = "programming"
+
+# # count = 0
+
+# for letter in word:
+#     if letter == "n":
+#         count+=1
+# print(count)
+
+
+# word = "programming"
+
+# count = 0
+
+# for letter in word:
+#     if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+#         count+=1
+
+# print(count)
+
+# word = "programming"
+
+# result = ""
+
+# for letter in word:
+#     if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+#         result += letter
+# print(result)
+
+# word = "python12345"
+
+# result = ""
+
+# for letter in word:
+#     if letter in "qwertyuiopasdfghjklzxcvbnm":
+#         result+= letter
+# print(result)
+
+# word = "programming"
+
+# count = 0
+
+# for letter in word:
+#     if letter in "aeiou":
+#         count+= 1
+# count =  len(word) - count
+
+# print(count)
+
+# word = "programming"
+
+# count = 0
+
+# for letter in word:
+#     if letter not in "aeiuo":
+#         count+=1
+# print(count)
+
+
+# numbers = [4, 7, 2, 9, 6, 3, 8]
+
+# target = 9
+
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         print(target,"found at index :", i)
+#         break
+
+# numbers = [4, 7, 9, 2, 9, 6, 9]
+# target = 9
+
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         print(i)
+#         break
+
+
+# numbers = [4, 7, 2, 9, 6, 3, 8]
+
+# for i in range(len(numbers)):
+#     if numbers[i]% 2 == 0 :
+#         continue
 #     print(numbers[i])
 
-# numbers = [7, 14, 21, 28, 35, 42]
 
-# for i in range(len(numbers)-1,-1,-1):
-#     print(numbers[i])
+# numbers = [1, 2, 3, 4]
 
-numbers = [7, 14, 21, 28, 35, 42, 49, 56]
+# for i in range(len(numbers)):
+#     for j in range(len(numbers)):
+#         if i != j :
+#             print(numbers[i],numbers[j])
+
+
+# numbers = [4, 7, 2, 9, 6]
+
+# for i in range(len(numbers)):
+#     for j in range(len(numbers)):
+#         if j > i and numbers[i] + numbers[j] == 10:
+#             print(numbers[i], numbers[j])
+            
+# numbers = [4, 7, 2, 9, 6, 3, 8]
+
+# for i in range(len(numbers)):
+#     for j in range(len(numbers)):
+#         if j > i and numbers[i] + numbers[j] == 11:
+#             print(numbers[i],numbers[j])
+
+
+# numbers = [4, 7, 2, 4, 9, 7, 2]
+
+# for i in range(len(numbers)):
+#     for j in range(i+1,len(numbers)):
+#             if numbers[i] == numbers[j]:
+#                 print(numbers[i],"found at index :", j)
+
+
+
+numbers = [4, 7, 9, 4]
+
+for i, number in enumerate(numbers):
+
+    print(i, number)
+
+
