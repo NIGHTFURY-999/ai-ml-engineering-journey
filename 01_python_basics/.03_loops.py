@@ -597,15 +597,43 @@
 # else:
 #     print(target,"not found")
 
-number = 1
-target = 15
+# number = 1
+# target = 15
 
-while number <= 10 :
+# while number <= 10 :
     
-    if number == target:
-        print("target found")
-        break
-    number+=1
-else:
-    print("target not found")
+#     if number == target:
+#         print("target found")
+#         break
+#     number+=1
+# else:
+#     print("target not found")
     
+
+
+# numbers = [4, 7, 4, 2, 7, 4, 9]
+# target = 4
+# count = 0
+
+# for i in numbers:
+#     if i == target:
+#         count+=1
+
+# print(target,"appears",count,"times")
+
+# numbers = [4, 7, 4, 2, 7, 4, 9]
+
+# frequency = {}
+
+# for number in numbers:
+#     if number in frequency:
+#         frequency[number] +=1
+#     else:
+#         frequency[number] = 1
+# print(frequency)
+
+
+numbers = [10, 25, 7, 40, 18, 32]
+
+for number in numbers:
+    if 
