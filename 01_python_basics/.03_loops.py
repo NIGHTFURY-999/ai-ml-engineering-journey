@@ -575,3 +575,16 @@
 
 # print(subject,largest)
 
+# numbers = [10, 20, 30, 40, 50]
+# target = 35
+
+# for i,j in enumerate(numbers):
+#     if j == target:
+#         print("found at ",i)
+#         break
+# else:
+#     print("not found")
+
+
+
+
