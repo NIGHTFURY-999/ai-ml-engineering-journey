@@ -687,16 +687,18 @@
 #     print("Lists are not equal")
 
 
-numbers = [10, 20, 30, 40, 50]
-numbers2 = [10, 20, 35, 40, 50]
-equal = True
+# numbers = [10, 20, 30, 40, 50]
+# numbers2 = [10, 20, 35, 40, 50]
+# equal = True
 
-for i in range (len(numbers)):
-        if numbers[i] != numbers2[i]:
-            equal = False
-            break
+# for i in range (len(numbers)):
+#         if numbers[i] != numbers2[i]:
+#             equal = False
+#             break
             
-if equal:
-    print("lists are equal")
-else:
-    print("Lists are not equal")
+# if equal:
+#     print("lists are equal")
+# else:
+#     print("Lists are not equal")
+
+
