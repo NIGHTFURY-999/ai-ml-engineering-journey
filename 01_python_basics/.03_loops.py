@@ -646,7 +646,7 @@
 # print(second_larg)
 
 
-# numbers1 = [1, 4, 7, 9, 12]
+# numbers1 = [1, 4, 7, 9, 12]  
 # numbers2 = [3, 7, 10, 12, 15]
 
 # for number1 in numbers1:
@@ -655,12 +655,48 @@
 #             print(number1) 
 
 
-numbers1 = [1, 4, 7, 7, 9, 12]
-numbers2 = [3, 7, 7, 10, 12, 12]
-common = []
-for number1 in numbers1:
-    for number2 in numbers2:
-        if number1 == number2 :
-            if number1 not in common:
-                common.append(number1)
-print(common)
+# numbers1 = [1, 4, 7, 7, 9, 12]
+# numbers2 = [3, 7, 7, 10, 12, 12]
+# common = []
+# for number1 in numbers1:
+#     for number2 in numbers2:
+#         if number1 == number2 :
+#             if number1 not in common:
+#                 common.append(number1)
+# print(common)
+
+
+# numbers = [-10, -25, -7, -40, -18, -32]
+
+# largest = numbers[0]
+# second = numbers[0]
+# for number in numbers:
+#     if number > largest:
+#         second = largest 
+#         largest = number
+# print(largest)
+# print(second)
+
+
+# numbers = [10, 20, 30, 40, 50]
+# numbers2 = [10, 20, 35, 40, 50]
+
+# if numbers == numbers2:
+#     print("both are equal")
+# else:
+#     print("Lists are not equal")
+
+
+numbers = [10, 20, 30, 40, 50]
+numbers2 = [10, 20, 35, 40, 50]
+equal = True
+
+for i in range (len(numbers)):
+        if numbers[i] != numbers2[i]:
+            equal = False
+            break
+            
+if equal:
+    print("lists are equal")
+else:
+    print("Lists are not equal")
