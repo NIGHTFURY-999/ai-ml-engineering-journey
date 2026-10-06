@@ -126,4 +126,54 @@
 # print(find_smallest(numbers))
 
 
+# def count_odd(numbers):
+#     count = 0
+#     for number in numbers:
+#         if number%2 != 0:
+#             count+=1
+#     return count
+
+# numbers =[3,1,3,56,7,4,9,8,7]
+
+# print(count_odd(numbers))
+
+
+
+# def sum_greater(numbers, target):
+#     total = 0
+#     for number in numbers:
+#         if number > target:
+#             total += number
+#     return total
+
+# numbers = [4, 12, 7, 20, 3, 15]
+# print(sum_greater(numbers,10))
+
+
+# def find_largest_even(numbers):
+#     largest = 
+#     for number in numbers:
+#         if number%2 ==0: 
+#             if number> largest:
+#                 largest = number
+#     return largest
+# numbers = [301, 12, 7, 20, 9, 14, 5]
+# print(find_largest_even(numbers))
+
+
+
+# def find_largest_even(numbers):
+#     largest = None
+
+#     for number in numbers:
+#         if number % 2 == 0:
+#             if largest is None or number > largest:
+#                 largest = number
+
+#     return largest
+
+
+# numbers = [301, 12, 7, 20, 9, 14, 5]
+
+# print(find_largest_even(numbers))
 
