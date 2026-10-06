@@ -177,3 +177,31 @@
 
 # print(find_largest_even(numbers))
 
+
+# largest = None
+
+# numbers = [301, 12, 7, 20]
+
+# for number in numbers:
+#     if number % 2 == 0:
+#         largest = number
+# print(largest)
+
+
+# def find_largest_even(numbers):
+
+#     largest = None
+
+#     for number in numbers:
+
+#         if number % 2 == 0:
+
+#             if largest is None or number> largest:
+#                 largest = number
+
+#     return largest
+
+# numbers = [301, 12, 7, 20, 9, 14, 5]
+
+# print(find_largest_even(numbers))
+
