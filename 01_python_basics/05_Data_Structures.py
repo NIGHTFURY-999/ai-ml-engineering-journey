@@ -60,3 +60,45 @@
 
 # print(numbers)
 
+# numbers = {5, 40 ,10, 5, 20, 10, 30,1}
+
+# print(numbers)
+
+
+# numbers = [1, 2,50, 3, -2, 4, 1, 5,]
+
+# unique = list(set(numbers))
+
+# print(unique)
+
+# numbers = [3, 1, 4, 1, 5, 2, 3]
+
+# unique = list(set(numbers))
+# print(unique)
+
+# numbers = [1, 2, 2, 3, 1, 2]
+# frequency = {}
+
+# for number in numbers:
+#     if number in frequency:
+#         frequency[number] +=1
+#     else:
+#         frequency[number] =1
+        
+
+
+
+frequency = {
+    10: 4,
+    20: 7,
+    30: 3
+}
+highest = 0
+highest_number = None
+
+for number in frequency:
+    if highest_number is None or frequency[number] > highest:
+         highest = frequency[number]
+         highest_number = number
+print(highest)
+print(highest_number)
