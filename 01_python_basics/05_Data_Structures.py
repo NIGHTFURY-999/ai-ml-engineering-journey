@@ -88,17 +88,37 @@
 
 
 
-frequency = {
-    10: 4,
-    20: 7,
-    30: 3
-}
-highest = 0
-highest_number = None
+# frequency = {
+#     10: 4,
+#     20: 7,
+#     30: 3
+# }
+# highest = 0
+# highest_number = None
 
-for number in frequency:
-    if highest_number is None or frequency[number] > highest:
-         highest = frequency[number]
-         highest_number = number
-print(highest)
-print(highest_number)
+# for number in frequency:
+#     if highest_number is None or frequency[number] > highest:
+#          highest = frequency[number]
+#          highest_number = number
+# print(highest)
+# print(highest_number)
+
+
+# frequency = {
+#     6: 2,
+#     1: 7,
+#     9: 4,
+#     3: 7
+# }
+
+# highest = 0
+# highest_number = None
+
+# for number in frequency:
+#     if highest_number is None or frequency[number] >= highest:
+#         highest = frequency[number]
+#         highest_number = number
+
+# print(highest)
+# print(highest_number)
+
